@@ -92,6 +92,7 @@ Skapade därefter en "Success" sida och en "Canceled" sida för avbrutna ordrar.
 ### Samarbete och agilt arbete
 - Man märkte att vår samarbete hade gjort framsteg, vi alla gick på auto-pilot (på ett bra sätt). Vi pratade lite mer i samtal denna vecka (med tanke på att Håkan hade rekommenderat de :P) men helt ärligt kände vi att de inte behövdes jättemycket. Självklart var det ingen nackdel, men det gav ingen specifik fördel heller. Vi var vana med att skriva, kände oss bekväma med det och det fungerar väl med tanke på att vi alla svarar snabbt.
 Vi reflekterade lite på att vi förstår innebörden av att ha ett samtal varje dag för att man ska ha den dagliga kontakten, men eftersom att vi redan har det (via meddelanden) och lite mer därtill så kändes det överflödigt..fanns inte mycket att säga än BRA JOBBAT!
+
 - Kan slutligen säga att vi var otroligt nöjda med oss själva, alla fick en klapp på axeln!
 
 
