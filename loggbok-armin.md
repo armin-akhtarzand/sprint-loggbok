@@ -103,9 +103,20 @@
 
 ### Vad jag arbetade med:
 
-- NOTE: Denna veckas planeringsmöte var lite jobbigare, det var första gången vi behövde dela upp punkterna i product-backlogen. Samtalet tog 37 minuter (längre än de brukar) vi var osäkra på ifall vi skulle hinna med allt denna vecka för just denna backlog, men vi lovade varandra att det inte är någon press! Vi har inte delat ut ALLA punkter direkt utan valde att köra 2st punkter var till att börja med.
-- Jag ska just nu implemnentera GatewayProxyServer (skapade alla forward metoder samt send), nu ska jag implementera produktflödet.
+- Min första uppgift var att implementera GatewatProxyServer i backend, skapade samtiga forward metoder samt send metoden. Utöver det la jag även till samtliga metoder som behövdes för GateWayProductController.
+- Kan tillägga att vi valde att inte köra på samma controller för samtliga endpoint, vi delade upp det för varje mikrotjänst t.ex GatewayProductController.
+- Efter att jag var klar med ProxyServer meddelade jag mina kollegor så att de kan implementera detta via deras controllers samt att jag skapade GatewayProductController.
+- Jag hade tid över efter att jag hade gjort min Controller, så när alla var klara med så tag jag på mig uppgiften att deploya Gatewayn i render.
+- Pushade även ny docker image på samtliga av mikrotjänsterna för att eventuella uppdateringar skulle följa med i flödet.
+- Vi blev klar med alla punkter i backloggen!
 
 ### Eventuella problem och hur jag löste dem.
+- Hade inga större problem denna vecka, använde Håkans pdf som mall för controllern samt proxyservern. Allting gick ganska smidigt måste jag säga. Vi hade det lite struligt med att mejl skickades till användaren innan betalning var fullbordad via Stripe (inte en del av denna sprint egentligen).
+Det var inget jag fixade utan jag flaggade det och min kollega korrigerade flödet. Alltså att status på ordern ska vara "PAID" innan ett bekräftelse mejl skickas.
+- En liten miss var bara att när jag bygger min docker image 
 
 ### Samarbete och agilt arbete
+- Denna veckas planeringsmöte var lite jobbigare, det var första gången vi behövde dela upp punkterna i product-backlogen. Samtalet tog 37 minuter (längre än de brukar) vi var osäkra på ifall vi skulle hinna med allt denna vecka för just denna backlog, men vi lovade varandra att det inte är någon press!
+- Vi använde oss utav AI vid uppdelning för att kunna få jämt fördelade arbetsuppgifter. Dock valde vi inte att inte dela upp alla punkter direkt utan endast lägga till i sprinten för att sedan dela upp resterande under veckan
+- Mycket skrivande denna vecka. Vi har dock bestämt oss för att köra mer via samtal, även fast vi tycker det funkar bra skrivandes. Anledning till det är helt enkelt för att vi vill känna på hur det skulle vara i en faktiskt arbetsplats efter Håkans föreläsning.
+- Förövrigt riktigt bra samarbete mellan teamet, ingen behöver vänta längre perioder för svar utan de kommer ganska omgående. Stötte på ett problem där flödet inte funkade för en av mina kollegor när vi väl hade deployat gateway samt mikotjänsterna, med ett snabbt svar hittade vi problemet (en mikrotjänst var inaktiv).
