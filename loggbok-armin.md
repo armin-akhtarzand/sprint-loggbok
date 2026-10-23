@@ -113,10 +113,30 @@
 ### Eventuella problem och hur jag löste dem.
 - Hade inga större problem denna vecka, använde Håkans pdf som mall för controllern samt proxyservern. Allting gick ganska smidigt måste jag säga. Vi hade det lite struligt med att mejl skickades till användaren innan betalning var fullbordad via Stripe (inte en del av denna sprint egentligen).
 Det var inget jag fixade utan jag flaggade det och min kollega korrigerade flödet. Alltså att status på ordern ska vara "PAID" innan ett bekräftelse mejl skickas.
-- En liten miss var bara att när jag bygger min docker image 
 
 ### Samarbete och agilt arbete
 - Denna veckas planeringsmöte var lite jobbigare, det var första gången vi behövde dela upp punkterna i product-backlogen. Samtalet tog 37 minuter (längre än de brukar) vi var osäkra på ifall vi skulle hinna med allt denna vecka för just denna backlog, men vi lovade varandra att det inte är någon press!
 - Vi använde oss utav AI vid uppdelning för att kunna få jämt fördelade arbetsuppgifter. Dock valde vi inte att inte dela upp alla punkter direkt utan endast lägga till i sprinten för att sedan dela upp resterande under veckan
 - Mycket skrivande denna vecka. Vi har dock bestämt oss för att köra mer via samtal, även fast vi tycker det funkar bra skrivandes. Anledning till det är helt enkelt för att vi vill känna på hur det skulle vara i en faktiskt arbetsplats efter Håkans föreläsning.
 - Förövrigt riktigt bra samarbete mellan teamet, ingen behöver vänta längre perioder för svar utan de kommer ganska omgående. Stötte på ett problem där flödet inte funkade för en av mina kollegor när vi väl hade deployat gateway samt mikotjänsterna, med ett snabbt svar hittade vi problemet (en mikrotjänst var inaktiv).
+
+
+## Sprint 5
+
+### Vad jag arbetade med:
+- Denna sprint arbetade jag med FE-36 & FE-41, började med FE-36 då andra tasks var beroende av denna.
+- Samtliga blev klara med sina punkter i backloggen. Vi hann även bygga ett test med Playwright
+
+
+### Eventuella problem och hur jag löste dem
+- Hade inga problem överhuvudtaget denna vecka. Blev klar med FE-36 på onsdagen, använde främst föreläsningen som mall så det var inga konstigheter.
+
+
+### Samarbete och agilt arbete
+- Vi började veckan med att läsa alla punkter 1 i taget, så fort posten är uppläst så kör vi Scrum poker. Märker att vi är väldigt eniga gällande poängen vi sätter. Kan ibland diffa lite, då pratar vi ut det och förklarar varför vi anser att de är högre/lägre. Behövs oftast inte röstas om då vi gemensamt brukar kunna komma fram till ett bra mellanläge (vi är bara 3 pers så kommunikationen blir väldigt simpel)
+- Skulle säga att vi gjorde en bra step-up när det gäller möten denna vecka. Vi har kört dagliga samtal (förutom tisdag, då körde vi meddelanden) vi pratar lite kort om hur de går. På torsdag var alla klara med sina tasks förutom jag (FE-41 var kvar).
+- En förbättring vi kom fram till denna vecka var dock att vi borde granska varandras PR lite mer nogrant. Inte för att vi låter dålig kod släppas förbi, utan mer för vi lär oss bättre av det.
+Kanske egentligen inte har något med sprint att göra. Men ibland kan "approve" knapppen blir lite automatiskt när man börjar förlita sig på att alla gör det korrekt. 
+
+
+
