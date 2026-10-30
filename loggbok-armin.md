@@ -138,5 +138,30 @@ Det var inget jag fixade utan jag flaggade det och min kollega korrigerade flöd
 - En förbättring vi kom fram till denna vecka var dock att vi borde granska varandras PR lite mer nogrant. Inte för att vi låter dålig kod släppas förbi, utan mer för vi lär oss bättre av det.
 Kanske egentligen inte har något med sprint att göra. Men ibland kan "approve" knapppen blir lite automatiskt när man börjar förlita sig på att alla gör det korrekt. 
 
+## Sprint 6(Scrum Master)
+
+### Vad jag arbetade med:
+- Den här veckan jobbade jag med FE-46, mitt ansvar var alltså att dokumentera backend med javadoc kommentarer.
+- Vi blev klar med samtliga punkter i backloggen, vi hann även deploya frontend.
+- Jag byggde och pushade även nya docker-images denna vecka, främst för ändringarna i gateway för cookie (vi gjorde aldrig det veckan innan)
+
+
+### Eventuella problem och hur jag löste dem
+- Hade lite strul denna vecka, båda gällande hur vi skulle tolka FE-46 samt lite annat.
+- Vi visste inte riktigt vilka delar utav backend tjänsterna som vi skulle se som "relevanta", vi ansåg att de mesta var relevant och hade sin funktion i applikationen. Tog hjälp av AI för att se dens åsikt över vad som bör ses som "relevant".. vilket blev de mesta
+- Ännu ett problem gällande dokumentation är att jag insåg att min förmåga att "dokumentera kod" inte är riktigt starkt. Använde AI som hjälpmedel på det sätt att jag skriver min dokumentation och därefter granskar AI det jag skriver. Lät den även ge mina dokumentation betyg (7/10). Jag brister inte i kunskap, jag förstår vad koden gör. Dock har jag svårigheter i att förklara metoderna på ett korrekt sätt, kanske egentligen inte är ett problem, men jag fick veta att jag behöver jobba mer teoretiskt för att kunna ta med mig den kunskapen till t.ex intervjuer i framtiden. 
+- Nått litet som hände när jag skulle pusha gateways docker-image är att användaren inte var inloggad när man refreshade sidan samt att produtkerna inte laddades (401). Tillslut kom jag fram till att jag hade glömt clean package image innan push. Stressade lite när jag skulle redeploya, men löste det snabbt när jag förstod problemet.
+
+
+### Samarbete och agilt arbete
+- Samarbetet fungerade väldigt bra denna vecka, vi började måndagen med att enskilt läsa alla punkter samt köra scrum-poker vid varje. Vi ansåg allihoppa att dokumentationerna och readme filerna med störst sannolikhet blir det "jobbigare" delarna av denna veckas backlogg.
+- Jag hade som sagt ansvar för FE-46, men min kollega gjorde dock dokumentationen för product-service så jag arbeta lite långsamt (som sagt så skrev jag och lät därefter AI granska osv osv)
+- Vi hade dagliga samtal även fast det inte var mycket att ta upp. Dock känns det som att det alltid finns nått att säga när man väl startar upp en konversation gällande projektet, så jag kan helt klart se nödvändigheten av att ha dagliga/regelbundna samtal.
+- Vårt mål från förra veckan var specifikt att försöka granska varandras kod lite djupare, dock vart det inte jättemycket kod att granska just denna vecka. Vi fick helt enkelt granska varandras dokumentationer, vilket fungerande hur bra som helst.
+
+Kan slutligen säga RIKTIGT BRA JOBBAT Grupp 9!
+
+
+
 
 
